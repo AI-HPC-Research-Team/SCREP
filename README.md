@@ -1,6 +1,6 @@
 # SCREP
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-<10.1101>-36C?logo=BioRxiv&logoColor=white)](https://www.biorxiv.org/content/10.1101/2024.04.25.591050v2)
-[![DOI](https://img.shields.io/badge/DOI-<DOI_code>-blue)](https://doi.org/10.1101/2024.04.25.591050)
+[![DOI](https://img.shields.io/badge/DOI-<2024.04.25.591050>-blue)](https://doi.org/10.1101/2024.04.25.591050)
 
 Here, we introduce **SCREP**, aims to leverage extensive bulk knowledge in order to enhance the modeling of single-cell drug response prediction. To comprehensively extract the knowledge embedded in the compounds, we employ a graph-aware Transformer network to model the interrelations among atoms. Subsequently, we employ a position-based neural network to process genomic information organized in a specific sequence, thereby facilitating the extraction of rich contextual features.
 
