@@ -16,19 +16,12 @@ The published Panglao dataset was downloaded from https://panglaodb.se/, please 
 ### Single-cell datasets
 Download origion single cell data and and the preprocessed `.pt` files from https://pan.baidu.com/s/1flg13UNGTmOuJDpwU_LjIw (code:SCRE):
 GEO access     |Drug                          |Cell line       |Cancer type                  |No. Res  |No. Sens  | N.A.| Author       |   
-
 GSE117872_HN120|Cisplatin                     |OSCC            |Oral squamous cell carcinomas|172      |346       |/    |Sharma, et al.|   
-
 GSE117872_HN137|Cisplatin                     |OSCC            |Oral squamous cell carcinomas|150      |388       |/    |Sharma, et al.|
-
 GSE149383      |Erlotinib                     |PC9             |Lung cancer                  |617      |849       |/    |Aissa, et al. |  
-
 GSE110894      |I-BET-762                     |leukaemic cells |Acute myeloidleukemia        |670      |719       |/    |Bell, et al.  |  
-
 GSE157220      |Gefitinib,Vorinostat,AR-42    |SCC47           |Head and Neck Cancer         |162      |162       |472  |Kinker et.al  |  
-
 GSE157220      |NVP-TAE684,Afatinib,Sorafenib |JHU006          |Head and Neck Cancer         |81       |81        |259  |Kinker et.al  |  
-
 GSE228154      |Afatinib                      |MDA-MB-468 cells|metastatic breast cancer     |665      |846       |/    |J. M. McFarland|  
 
 
@@ -63,9 +56,9 @@ run `training_IC50_ge16906_fewshot_metatraining_2loss_onedrug.py`
 run `training_IC50_ge16906_fewshot_metatraining_2loss_mmd.py`
 - change parameters: "--dataset"，"--pretrained_path"，"--exp_name" to train sc model on different sc datasets.
 
-*Thanks to [Thang Chu, et al.] for providing excellent code and documentation. This project was inspired by and includes some code from [GraTransDRP] T. Chu, T. T. Nguyen, B. D. Hai, Q. H. Nguyen and T. Nguyen, "Graph Transformer for Drug Response Prediction," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 20, no. 2, pp. 1065-1072, 1 March-April 2023
+*Thanks to [Thang Chu, et al.] for providing excellent code and documentation. This project was inspired by and includes some code from [GraTransDRP] T. Chu, T. T. Nguyen, B. D. Hai, Q. H. Nguyen and T. Nguyen, "Graph Transformer for Drug Response Prediction," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 20, no. 2, pp. 1065-1072, 1 March-April 2023  
 *Thanks to [Gabriela S Kinker, et al] for providing partial datasets [Gabriela S Kinker, et al. Pan-cancer
-single-cell rna-seq identifies recurring programs of cellular heterogeneity. Nature genetics, 52(11):1208–1218, 2020]
+single-cell rna-seq identifies recurring programs of cellular heterogeneity. Nature genetics, 52(11):1208–1218, 2020]  
 *Thanks to [Junyi Chen, et al.] for providing partial datasets[Chen, J., Wang, X., Ma, A., Wang, Q.E., Liu, B., Li, L., Xu, D. and Ma, Q., 2022. Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data. Nature Communications, 13(1), p.6494.]
 
 ### Tips:
