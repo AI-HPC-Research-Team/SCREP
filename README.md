@@ -15,14 +15,22 @@ The published Panglao dataset was downloaded from https://panglaodb.se/, please 
 
 ### Single-cell datasets
 Download origion single cell data and and the preprocessed `.pt` files from https://pan.baidu.com/s/1flg13UNGTmOuJDpwU_LjIw (code:SCRE):
-GEO access     |Drug                          |Cell line       |Cancer type                  |No. Res  |No. Sens  | N.A.| Author       |
-GSE117872_HN120|Cisplatin                     |OSCC            |Oral squamous cell carcinomas|172      |346       |/    |Sharma, et al.|                                       
+GEO access     |Drug                          |Cell line       |Cancer type                  |No. Res  |No. Sens  | N.A.| Author       |   
+
+GSE117872_HN120|Cisplatin                     |OSCC            |Oral squamous cell carcinomas|172      |346       |/    |Sharma, et al.|   
+
 GSE117872_HN137|Cisplatin                     |OSCC            |Oral squamous cell carcinomas|150      |388       |/    |Sharma, et al.|
-GSE149383      |Erlotinib                     |PC9             |Lung cancer                  |617      |849       |/    |Aissa, et al. |
-GSE110894      |I-BET-762                     |leukaemic cells |Acute myeloidleukemia        |670      |719       |/    |Bell, et al.  |
-GSE157220      |Gefitinib,Vorinostat,AR-42    |SCC47           |Head and Neck Cancer         |162      |162       |472  |Kinker et.al  |
-GSE157220      |NVP-TAE684,Afatinib,Sorafenib |JHU006          |Head and Neck Cancer         |81       |81        |259  |Kinker et.al  |
-GSE228154      |Afatinib                      |MDA-MB-468 cells|metastatic breast cancer     |665      |846       |/    |J. M. McFarland|
+
+GSE149383      |Erlotinib                     |PC9             |Lung cancer                  |617      |849       |/    |Aissa, et al. |  
+
+GSE110894      |I-BET-762                     |leukaemic cells |Acute myeloidleukemia        |670      |719       |/    |Bell, et al.  |  
+
+GSE157220      |Gefitinib,Vorinostat,AR-42    |SCC47           |Head and Neck Cancer         |162      |162       |472  |Kinker et.al  |  
+
+GSE157220      |NVP-TAE684,Afatinib,Sorafenib |JHU006          |Head and Neck Cancer         |81       |81        |259  |Kinker et.al  |  
+
+GSE228154      |Afatinib                      |MDA-MB-468 cells|metastatic breast cancer     |665      |846       |/    |J. M. McFarland|  
+
 
 ### Pretrain data:
 Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4TQyaXKydSceNhp0g (code:KDRU)
@@ -38,8 +46,10 @@ It is necessary to align the bulk data separately with the sensitive and resista
 
 ### Get indices of cell lines of specific tissue: 
 run `drug_cell_list/tissue.py` and then run `drug_cell_list/drug_tissue_cell_index.py`:
-          drug_cell_list/cell_tissue.json
-          drug_cell_list/tissue_type.json
+          drug_cell_list/cell_tissue.json  
+	  
+          drug_cell_list/tissue_type.json  
+	  
           drug_cell_list/all_drug_tissue_cell_index.json
 
 ## Model
