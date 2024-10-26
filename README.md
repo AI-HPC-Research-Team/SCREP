@@ -30,7 +30,7 @@ Data path:
 ### Pretrain data:
 Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4TQyaXKydSceNhp0g (code:KDRU)
 
-    `global_data/`  - path of origional GDSC files  
+    `global_data/`                  - path of origional GDSC files  
     `data/processed/xxxxGDSCxx.pt`  - path of processed bulk data
 
 ### Preprocessing GDSC data: 
@@ -59,12 +59,16 @@ run `drug_cell_list/tissue.py` and then run `drug_cell_list/drug_tissue_cell_ind
 ### Pretrain bulk model:
 run `training_IC50_ge16906_fewshot_metatraining_2loss_onedrug.py`  
 
-    - Based on the general GDSC pretrained model: `model_FeatureRelationNetwork_GDSC_norm_continue_ic50.model`, it is the model trained on all drug-cell lines dataset.
+    `model_FeatureRelationNetwork_GDSC_norm_continue_ic50.model` - Based on the general GDSC pretrained model, it is the model trained on all drug-cell lines dataset.
 
 ### Pretrain sc model:
 run `training_IC50_ge16906_fewshot_metatraining_2loss_mmd.py`  
 
-    - change parameters: "--dataset"，"--pretrained_path"，"--exp_name" to train sc model on different sc datasets.
+    - change parameters to train sc model on different sc datasets:  
+    "--dataset"  
+    "--pretrained_path"  
+    "--exp_name"  
+   
 
 *Thanks to [Thang Chu, et al.] for providing excellent code and documentation. This project was inspired by and includes some code from [GraTransDRP] T. Chu, T. T. Nguyen, B. D. Hai, Q. H. Nguyen and T. Nguyen, "Graph Transformer for Drug Response Prediction," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 20, no. 2, pp. 1065-1072, 1 March-April 2023  
 *Thanks to [Gabriela S Kinker, et al] for providing partial datasets [Gabriela S Kinker, et al. Pan-cancer
