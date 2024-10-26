@@ -24,7 +24,7 @@ GSE157220      |NVP-TAE684,Afatinib,Sorafenib |JHU006          |Head and Neck Ca
 GSE228154      |Afatinib                      |MDA-MB-468 cells|metastatic breast cancer     |665      |846       |/    |J. M. McFarland|
 
 ### Pretrain data:
-Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4TQyaXKydSceNhp0g(code:KDRU)
+Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4TQyaXKydSceNhp0g (code:KDRU)
 
 ### Preprocessing GDSC data: 
 run `preprocess_continue_IC50_ge16906_everydrug.py`, you will get data files in "data/processed": 
