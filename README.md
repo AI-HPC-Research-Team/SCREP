@@ -23,14 +23,15 @@ GSE157220      |Gefitinib,Vorinostat,AR-42    |SCC47           |Head and Neck Ca
 GSE157220      |NVP-TAE684,Afatinib,Sorafenib |JHU006          |Head and Neck Cancer         |81       |81        |259  |Kinker et.al  |  
 GSE228154      |Afatinib                      |MDA-MB-468 cells|metastatic breast cancer     |665      |846       |/    |J. M. McFarland|  
 
-`data/processed/xxxGSExxx.pt`  - path of processed single cell data  
-`data/GSExxxxxx`  - path of origional data file(.csv)
+Data path:  
+    `data/processed/xxxGSExxx.pt`  - path of processed single cell data  
+    `data/GSExxxxxx`               - path of origional data file(.csv)
 
 ### Pretrain data:
 Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4TQyaXKydSceNhp0g (code:KDRU)
 
-`global_data/`  - path of origional GDSC files  
-`data/processed/xxxxGDSCxx.pt`  - path of processed bulk data
+    `global_data/`  - path of origional GDSC files  
+    `data/processed/xxxxGDSCxx.pt`  - path of processed bulk data
 
 ### Preprocessing GDSC data: 
 run `preprocess_continue_IC50_ge16906_everydrug.py`, you will get data files in "data/processed": 
@@ -52,7 +53,7 @@ run `drug_cell_list/tissue.py` and then run `drug_cell_list/drug_tissue_cell_ind
 
 ## Model
 `models`  
-    - gat_gcn_transformer_ge_only_pretrain_meta.py - code of network
+    `gat_gcn_transformer_ge_only_pretrain_meta.py` - code of network
     
 ## Training
 ### Pretrain bulk model:
