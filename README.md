@@ -9,6 +9,7 @@ Here, we introduce **SCREP**, aims to leverage extensive bulk knowledge in order
 **Note:** The sections on Datasets, Model, and Training below describe the contents of the respective directories. Due to size constraints and permissions, some data and ckpts may not be uploaded. The download url can be found in our paper.
 
 ## Datasets
+### Gene name
 The published Panglao dataset was downloaded from https://panglaodb.se/, please put the downloaded data under the path: data/panglao_10000.h5ad
 
 
@@ -43,12 +44,12 @@ run `drug_cell_list/tissue.py` and then run `drug_cell_list/drug_tissue_cell_ind
 
 ## Model
 `models`          
-    - gat_gcn_transformer_ge_only_pretrain_meta.py - code of meta pre-training
+    - gat_gcn_transformer_ge_only_pretrain_meta.py - code of network
     
 ## Training
 ### Pretrain bulk model:
 run `training_IC50_ge16906_fewshot_metatraining_2loss_onedrug.py`
-- Based on the general GDSC pretrained model: "model_FeatureRelationNetwork_GDSC_norm_continue_ic50.model", it is the model trained on all drug-cell lines dataset.
+- Based on the general GDSC pretrained model: `model_FeatureRelationNetwork_GDSC_norm_continue_ic50.model`, it is the model trained on all drug-cell lines dataset.
 
 ### Pretrain sc model:
 run `training_IC50_ge16906_fewshot_metatraining_2loss_mmd.py`
