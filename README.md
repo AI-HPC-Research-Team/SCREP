@@ -41,15 +41,13 @@ run `preprocess_continue_IC50_ge16906_everydrug.py`, you will get data files in 
 
 ### Preprocessing GDSC data into "sensitive" or "resistant": 
 It is necessary to align the bulk data separately with the sensitive and resistant categories of the sc data. The IC50 should be filtered according to a 5% z-score, resulting in the following bulk data (sensitive: class 1, resistant: class 0):
-          data/processed/GDSC_norm_allclass0_z_score_ic50_gene16906.pt
+          data/processed/GDSC_norm_allclass0_z_score_ic50_gene16906.pt  
           data/processed/GDSC_norm_allclass1_z_score_ic50_gene16906.pt
 
 ### Get indices of cell lines of specific tissue: 
 run `drug_cell_list/tissue.py` and then run `drug_cell_list/drug_tissue_cell_index.py`:
           drug_cell_list/cell_tissue.json  
-	  
           drug_cell_list/tissue_type.json  
-	  
           drug_cell_list/all_drug_tissue_cell_index.json
 
 ## Model
