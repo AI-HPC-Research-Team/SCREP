@@ -28,7 +28,7 @@ Data path:
     `data/GSExxxxxx`               - path of origional data file(.csv)
 
 ### Pretrain data:
-Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4TQyaXKydSceNhp0g (code:KDRU)
+Download GDSC origion dataset from https://drive.google.com/drive/folders/1UlIAMfxCAFDIge2uIJCjl4zdlY5smqi7?usp=sharing
 
     `global_data/`                  - path of origional GDSC files  
     `data/processed/xxxxGDSCxx.pt`  - path of processed bulk data
