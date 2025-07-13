@@ -88,15 +88,5 @@ Decreasing the args.updata_lr when the accuracy of meta training is retaining ar
 ```
 ## Citation
 ```
-@article {Ge2024.04.25.591050,
-	author = {Ge, Shuang and Sun, Shuqing and Ren, Yiming and Xu, Huan and Cheng, Qiang and Ren, Zhixiang},
-	title = {SCREP: Towards Single-Cell Drug Response Prediction by Pharmacogenomic Embedding Enhanced Meta-Pretraining and Few-Shot Transfer Learning},
-	elocation-id = {2024.04.25.591050},
-	year = {2024},
-	doi = {10.1101/2024.04.25.591050},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2024/10/21/2024.04.25.591050},
-	eprint = {https://www.biorxiv.org/content/early/2024/10/21/2024.04.25.591050.full.pdf},
-	journal = {bioRxiv}
-}
+
 ```
