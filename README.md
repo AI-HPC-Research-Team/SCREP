@@ -13,7 +13,7 @@ Here, we introduce **SCREP**, aims to leverage extensive bulk knowledge in order
 The published Panglao dataset was downloaded from https://panglaodb.se/, please put the downloaded data under the path: data/panglao_10000.h5ad
 
 ### Single-cell datasets
-Download origion single cell data and and the preprocessed `.pt` files from https://pan.baidu.com/s/1flg13UNGTmOuJDpwU_LjIw (code:SCRE):
+Download origion single cell data and and the preprocessed `.pt` files from https://drive.google.com/drive/folders/16RdVuOWXOS15khAOMUvq_jNO5OhP4E9Q?usp=sharing:
 GEO access     |Drug                          |Cell line       |Cancer type                  |No. Res  |No. Sens  | N.A.| Author       |   
 GSE117872_HN120|Cisplatin                     |OSCC            |Oral squamous cell carcinomas|172      |346       |/    |Sharma, et al.|   
 GSE117872_HN137|Cisplatin                     |OSCC            |Oral squamous cell carcinomas|150      |388       |/    |Sharma, et al.|
