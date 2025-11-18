@@ -1,5 +1,5 @@
 # SCREP
-[![DOI](10.1109/TCBBIO.2025.3626801DOI-<TCBBIO.2025.3626801>-blue)](10.1109/TCBBIO.2025.3626801)
+[![DOI](https://img.shields.io/badge/DOI-<DOI_code>-blue)](https://ieeexplore.ieee.org/document/11223087)
 
 Here, we introduce **SCREP**, aims to leverage extensive bulk knowledge in order to enhance the modeling of single-cell drug response prediction. To comprehensively extract the knowledge embedded in the compounds, we employ a graph-aware Transformer network to model the interrelations among atoms. Subsequently, we employ a position-based neural network to process genomic information organized in a specific sequence, thereby facilitating the extraction of rich contextual features.
 
